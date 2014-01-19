@@ -23,12 +23,15 @@ Di Đông Ngọc Lân
 	
 	<div id="center">
 	<fieldset style="margin-left:30px;">
-		<legend align="center"><h2 >Thông tin đăng nhập</h2></legend>
-		<form id="form-login" action="../controller/action.php" method="POST">
-		<label>Họ tên:</label><input type="text" name="name" id="name" /><br/>
-		<label>Mật khẩu:</label><input type="password" name="password" id="password" /><br/>
-		<input type="submit" name="login" id="login" value="Đăng nhập" class="button" />
+		<legend align="center"><h2 >Thêm sản phẩm</h2></legend>
+		<form id="form-login" action="../controller/action.php" method="POST" enctype="multipart/form-data" >
+		<label>Tên sản phẩm:</label><input type="text" name="productname" id="productname" /><br/>
+		<label>Loại sản phẩm:</label><input type="text" name="producttype" id="producttype" /><br/>
+		<label>Giá sản phẩm:</label><input type="text" name="price" id="price"/><br/>
+		<label>Hình ảnh</label><input type="file" name="file" id="file" /><br/>
+		<input type="submit" name="addproduct" id="addproduct" value="Thêm sản phẩm" class="button"/>
 		</form>
+		
 	</fieldset>
 	</div>
 	<div id="bottom">
