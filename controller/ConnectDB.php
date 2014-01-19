@@ -9,4 +9,6 @@ class ConnectDB {
 		else exit("Error hosting");
 	}
 }
+$db=new ConnectDB();
+$db->connect();
 ?>
