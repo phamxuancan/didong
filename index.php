@@ -10,13 +10,17 @@ Di Đông Ngọc Lân
 <body>
 <div id="contaner">
 	<div id="top">
+		<a style="float:right;margin-top:200px;margin-right:10px;" href="src/login.php">Đăng nhập</a>
 	
 	</div>
 	<div id="banner">
-	<marquee direction="left" behavior="alternate" > chữ chạy từ trái sang phải và có kiểu chạy đi chạy lại. </marquee>
+	<marquee direction="left" behavior="alternate" ><H3> CỬA HÀNG ĐIỆN THOẠI : DỊA CHỈ: CHỢ HẦU, LIÊN MINH - VỤ BẢN - NAM ĐỊNH </H3></marquee>
 	</div>
 	<div id="left">
-	<a href="src/iphone.php">Iphone</a>
+	
+		<ul style="width:200px;"><a href="src/all.php"> =>CÁC LOẠI ĐIỆN THOẠI</a>
+		<li><a href="src/iphone.php">IPHONE</a></li>
+		</ul>
 	</div>
 	
 	<div id="center">
@@ -24,7 +28,7 @@ Di Đông Ngọc Lân
 		<div id='header'></div>
 		<div id='body'>
 			<div id="bigPic">
-				<img src="imgs/1.jpg" alt="" />
+				<img  src="imgs/1.jpg" alt="" />
 				<img src="imgs/2.jpg" alt="" />
 				<img src="imgs/3.jpg" alt="" />
 				<img src="imgs/4.jpg" alt="" />
@@ -32,8 +36,6 @@ Di Đông Ngọc Lân
 				<img src="imgs/6.jpg" alt="" />
 				<img src="imgs/7.jpg" alt="" />
 				<img src="imgs/8.jpg" alt="" />
-				<img src="imgs/9.jpg" alt="" />
-				<img src="imgs/10.jpg" alt="" />
 			</div>
 			<ul id="thumbs">
 				<li class='active' rel='1'><img src="imgs/1_thumb.jpg" alt="" /></li>
@@ -44,8 +46,6 @@ Di Đông Ngọc Lân
 				<li rel='6'><img src="imgs/7_thumb.jpg" alt="" /></li>
 				<li rel='7'><img src="imgs/8_thumb.jpg" alt="" /></li>
 				<li rel='8'><img src="imgs/9_thumb.jpg" alt="" /></li>
-				<li rel='9'><img src="imgs/10_thumb.jpg" alt="" /></li>
-				<li rel='10'><img src="imgs/2_thumb.jpg" alt="" /></li>
 			</ul>
 		
 		</div>
